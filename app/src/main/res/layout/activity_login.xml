@@ -4,6 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@drawable/gradientelogin">
+    <!-- de esta manera creamos  el color de fondo,
+    añadiendo el gradientelogin de la carpeta "drawable"
+    y colors en "values" a nuestro login-->
+
+
+    <!-- añadimos la imagen de la chica -->
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl"
+        android:scaleType="fitStart"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <!-- añadimos el rayo -->
+    <ImageView
+        android:id="@+id/thunder"
+        android:layout_width="71dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/ic_thunder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  -->
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
