@@ -1,10 +1,10 @@
-plugins {
+        plugins {
     id("com.android.application")
 }
 
 android {
     namespace = "com.example.nicestartdefinitivo"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.nicestartdefinitivo"
