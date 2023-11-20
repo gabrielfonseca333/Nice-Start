@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:background="@drawable/gradientelogin">
-    <!-- PRIMER PASO: creamos  el color de fondo,
+    <!-- 1º PASO: creamos  el color de fondo,
     añadiendo el gradientelogin de la carpeta "drawable"
     y colors en "values" a nuestro login-->
 
 
-    <!-- SEGUNDO PASO: añadimos la imagen de la chica -->
+    <!-- 2º PASO: añadimos la imagen de la chica -->
     <ImageView
         android:id="@+id/girl"
         android:layout_width="match_parent"
@@ -21,20 +21,33 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <!-- TERCER PASO: añadimos el rayo -->
+    <!-- 8º PASO: Este VIEW se usa para crear una capa sobre la chica y crear ese efecto
+    de "gradiente transparente sobre la chica" -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@drawable/gradient">
+
+    </View>
+
+    <!-- 3º PASO: añadimos el rayo -->
+
     <ImageView
         android:id="@+id/thunder"
         android:layout_width="71dp"
         android:layout_height="94dp"
         android:layout_marginStart="168dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/ic_thunder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- CUARTO PASO: añadimos las lineas guía -->
+    <!-- 4º PASO: añadimos las lineas guía -->
         <!-- 1era linea guia -->
-        <androidx.constraintlayout.widget.Guideline
+
+    <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,7 +62,7 @@
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.80" />
 
-    <!-- Añadimos el EditText del username -->
+    <!-- 5º PASO: Añadimos el EditText del username -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til1"
         android:layout_width="0dp"
@@ -70,7 +83,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Añadimos el EditText del password -->
+    <!-- 6º PASO: Añadimos el EditText del password -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til2"
         android:layout_width="0dp"
@@ -92,10 +105,28 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- 7º PASO: añadimos los botones de LOGIN y SING UP -->
+    <Button
+        android:id="@+id/button"
+        style="@style/buttonflat"
+        android:onClick="openMain"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/til2" />
 
+    <Button
+        android:id="@+id/buttoninverse"
+        style="@style/buttonoutlined"
+        android:layout_height="60dp"
+        android:onClick="openSignup"
+        android:text="SIGNUP"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/button"
 
-
-    <!-- añadimos los botones de LOGIN y SING UP -->
+        />
 
 
 
