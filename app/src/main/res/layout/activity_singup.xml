@@ -112,7 +112,7 @@
         android:id="@+id/buttoninverse"
         style="@style/buttonoutlined"
         android:layout_height="60dp"
-        android:onClick="openSignup"
+        android:onClick="openLogin"
         android:text="CANCEL"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
