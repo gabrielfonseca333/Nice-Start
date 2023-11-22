@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".Splash">
+    <!-- (arriba) añadimos el background -->
+
+    <!-- añadimos un ImageView para visualizar la imagen
+    que se va a implementar con el Glide -->
+
+    <ImageView
+        android:id="@+id/backView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- add the logo -->
+
+    <!-- texto con el nombre de nuestra app -->
+
+    <ImageView
+        android:id="@+id/logosplash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="272dp"
+        android:src="@drawable/ic_thunder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LoraRegular"
+        android:text="NICESTART"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="@id/logosplash"
+        app:layout_constraintStart_toStartOf="@id/logosplash"
+        app:layout_constraintTop_toBottomOf="@id/logosplash">
+
+    </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

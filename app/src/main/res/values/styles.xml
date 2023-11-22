@@ -24,4 +24,12 @@
         <item name="cornerRadius">8dp</item>
     </style>
 
+    <style name="VinaSans">
+        <item name="android:fontFamily">@font/vinasans0regular</item>
+    </style>
+
+    <style name="LoraRegular">
+        <item name="android:fontFamily">@font/lora0regular</item>
+    </style>
+
 </resources>

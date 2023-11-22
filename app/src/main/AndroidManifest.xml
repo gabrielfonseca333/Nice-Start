@@ -15,9 +15,18 @@
         <activity
             android:name=".Nopeople"
             android:exported="false" />
+
+        <!-- SPLASH -->
         <activity
             android:name=".Splash"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SING UP -->
         <activity
             android:name=".Signup"
             android:exported="true" />
@@ -26,7 +35,7 @@
             android:exported="true" />
         <activity
             android:name=".Main"
-            android:exported="True">
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
