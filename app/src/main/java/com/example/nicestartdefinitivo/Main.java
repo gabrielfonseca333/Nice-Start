@@ -2,7 +2,9 @@ package com.example.nicestartdefinitivo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Main extends AppCompatActivity {
 
@@ -10,5 +12,12 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void irLogin(View v){
+
+        Intent intent = new Intent(Main.this, Login.class);
+        startActivity(intent);
+
     }
 }
