@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Nopeople">
 
+    <!-- esto es el swipeRefresh -->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/myswipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <!-- dentro del swipe refresh solo puedes tener un elemento -->
+        <!-- en este caso un Web View que sirve para cargar una pagina web -->
+
+        <WebView
+            android:id="@+id/vistaweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </WebView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
