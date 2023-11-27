@@ -14,7 +14,19 @@
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
          />
+
+    <!-- Este VIEW se usa para crear una capa sobre el chicoGafas y crear ese efecto
+    de "gradiente transparente sobre el chico" -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@drawable/gradient">
+
+    </View>
 
 
     <com.google.android.material.appbar.AppBarLayout
@@ -57,15 +69,17 @@
 
     <Button
         android:id="@+id/nopeople"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/buttonflat"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
         android:text="¿NO PEOPLE?"
+        app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintVertical_bias="0.816"
+         />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
