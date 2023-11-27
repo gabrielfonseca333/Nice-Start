@@ -3,9 +3,7 @@ This is one of my first app developed in Android Studio.
 
  1. When you launch the app you will find the activity_splash.xml:
 
-![Activity Splash]()
-
-![Activity_Splash](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/ed7043b8-7603-4c56-9c87-19c95f7cc060)
+![Activity Splash](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/ed7043b8-7603-4c56-9c87-19c95f7cc060)
 
  2. After that, will load the activity_login.xml:
 
