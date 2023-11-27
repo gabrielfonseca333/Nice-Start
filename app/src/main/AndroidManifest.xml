@@ -16,7 +16,7 @@
 
         <activity
             android:name=".Nopeople"
-            android:exported="false" />
+            android:exported="true" />
 
         <!-- SPLASH -->
         <activity

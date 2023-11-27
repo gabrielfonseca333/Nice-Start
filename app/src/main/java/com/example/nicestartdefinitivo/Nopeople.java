@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class Nopeople extends AppCompatActivity {
 
     private WebView miVisorWeb;
-    private SwipeRefreshLayout swipeRefreshLayout;
+    private SwipeRefreshLayout swipeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +23,18 @@ public class Nopeople extends AppCompatActivity {
         WebView mycontext = (WebView)findViewById(R.id.vistaweb);
         registerForContextMenu(mycontext);
 
-        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.vistaweb);
-        swipeRefreshLayout.setOnRefreshListener(mOnRefreshListener);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
+
+        miVisorWeb =(WebView)findViewById(R.id.vistaweb);
 
         WebSettings webSettings = miVisorWeb.getSettings();
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
-        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
-        swipeRefreshLayout.setOnRefreshListener(mOnRefreshListener);
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
 
 
@@ -44,7 +47,7 @@ public class Nopeople extends AppCompatActivity {
             Toast toast0 = Toast.makeText(Nopeople.this, "Hi there! I don't exist :)", Toast.LENGTH_LONG);
             toast0.show();
             miVisorWeb.reload();
-            swipeRefreshLayout.setRefreshing(false);
+            swipeLayout.setRefreshing(false);
         }
     };
 

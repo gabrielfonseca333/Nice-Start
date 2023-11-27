@@ -43,4 +43,7 @@ dependencies {
 
     //para añadir el swipe refresh
     implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
+    //para añadir la animación de Lottie
+    implementation ("com.airbnb.android:lottie:3.4.2")
 }
