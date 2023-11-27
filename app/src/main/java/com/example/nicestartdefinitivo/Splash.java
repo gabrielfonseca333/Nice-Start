@@ -36,7 +36,7 @@ public class Splash extends AppCompatActivity {
 //esto para imagenes
         imFoto = findViewById(R.id.backView);
         Glide.with(this)
-                .load("https://images.pexels.com/photos/19027548/pexels-photo-19027548/free-photo-of-pajaro-lago-nadando-cisne.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+                .load("https://cdn.leonardo.ai/users/9c914922-cc06-427c-9216-36db1279394a/generations/302e8c6a-3232-49db-b85a-ba98e034908a/variations/Default_magical_and_surreal_art_image_with_a_magnificent_summe_0_302e8c6a-3232-49db-b85a-ba98e034908a_1.jpg?w=512")
                 .transition(DrawableTransitionOptions.withCrossFade(100))
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
