@@ -1,4 +1,8 @@
 # NiceStartDefinitivo
+Welcome: 
+<iframe width="560" height="315" src="https://youtube.com/shorts/2fTsZ4r0aGY?feature=share" frameborder="0" allowfullscreen></iframe>
+
+
 This is one of my first app developed in Android Studio. 
 
  1. When you launch the app you will find the activity_splash.xml:
