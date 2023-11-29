@@ -41,12 +41,9 @@ This is one of my first app developed in Android Studio.
 
   - The second one is one of "fireworks" when you open de Main
 
-     ![fireworks](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/3c2ef8ea-3917-4fff-90a6-8cccb80b76d0)
+[main_animation.webm](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/a34e9d8d-9cda-4ae9-9b20-b0a7bf22ce30)
 
-    7.2.
-
- 
-   7.3. I did a pull Request to my teacher Ernesto (atomms) adding different text fonts.
+   7.2. I did a pull Request to my teacher Ernesto (atomms) adding different text fonts.
    https://github.com/atomms/First/tree/gabriel23
 
    ![pull request ](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/806ab882-8575-4c8f-9449-b60cbc04092b)
