@@ -1,6 +1,7 @@
 # NiceStartDefinitivo
 Welcome: 
-[link to the video ](https://youtube.com/shorts/2fTsZ4r0aGY?feature=share)
+
+https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/7e54552c-e9e0-4354-9a5c-dc14e63d026c
 
 This is one of my first app developed in Android Studio. 
 
