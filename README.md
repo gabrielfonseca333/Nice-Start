@@ -1,7 +1,6 @@
 # NiceStartDefinitivo
 Welcome: 
-<iframe width="560" height="315" src="https://youtube.com/shorts/2fTsZ4r0aGY?feature=share" frameborder="0" allowfullscreen></iframe>
-
+[Enlace al video](https://youtube.com/shorts/2fTsZ4r0aGY?feature=share)
 
 This is one of my first app developed in Android Studio. 
 
