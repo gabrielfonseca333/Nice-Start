@@ -1,6 +1,6 @@
 # NiceStartDefinitivo
 Welcome: 
-[Enlace al video](https://youtube.com/shorts/2fTsZ4r0aGY?feature=share)
+[link to the video ](https://youtube.com/shorts/2fTsZ4r0aGY?feature=share)
 
 This is one of my first app developed in Android Studio. 
 
