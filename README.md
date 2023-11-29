@@ -49,3 +49,7 @@ This is one of my first app developed in Android Studio.
    ![pull request ](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/806ab882-8575-4c8f-9449-b60cbc04092b)
 
    7.4. I used the "Glide Library" to load the images from the background of the Splash and the Main
+
+   ´´´ implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0") ´´´
+   
