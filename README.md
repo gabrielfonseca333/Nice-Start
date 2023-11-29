@@ -44,5 +44,8 @@ This is one of my first app developed in Android Studio.
 
  
    7.3. I did a pull Request to my teacher Ernesto (atomms) adding different text fonts.
+   https://github.com/atomms/First/tree/gabriel23
+
+   ![pull request ](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/806ab882-8575-4c8f-9449-b60cbc04092b)
 
    7.4. I used the "Glide Library" to load the images from the background of the Splash and the Main
