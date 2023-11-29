@@ -35,16 +35,15 @@ This is one of my first app developed in Android Studio.
 
     7.1. I use 2 Lottie Animations: 
         - The first is the one of the cubes in the Splash
+        - I add animations to my Thunder Logo: you cand find it in the Splash
 
-![doscubos](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/af8bc310-c189-4a39-bd00-dd5fcd715d67)
+[animSplash.webm](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/54be01b9-1b6c-43cc-aede-20222d8d928e)
 
   - The second one is one of "fireworks" when you open de Main
 
      ![fireworks](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/3c2ef8ea-3917-4fff-90a6-8cccb80b76d0)
 
-    7.2. I add animations to my Thunder Logo: you cand find it in the Splash
-
-![thunder](https://github.com/gabrielfonseca333/NiceStartDefinitivo/assets/127840491/90ea6516-4c08-4132-a82d-8a60b7a3a46f)
+    7.2.
 
  
    7.3. I did a pull Request to my teacher Ernesto (atomms) adding different text fonts.
