@@ -50,6 +50,7 @@ This is one of my first app developed in Android Studio.
 
    7.4. I used the "Glide Library" to load the images from the background of the Splash and the Main
 
-   ´´´ implementation ("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0") ´´´
+   ```
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0") ```
    
